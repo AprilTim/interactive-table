@@ -44,10 +44,6 @@ class TableContainer extends React.Component {
             : data)
     }
 
-    onSorted = () => {
-
-    }
-
     pagData = () => {
         let currentPage = this.props.pagination.currentPage
         let pageUserCount = this.props.pagination.pageUserCount
