@@ -1,9 +1,7 @@
 import React from "react";
 import connect from "react-redux/lib/connect/connect";
 import AddUser from "./AddUser";
-import {addUser} from "../../Redux/MainReducer";
-
-
+import {addUser} from "../../../Redux/mainReducer";
 
 const AddUserContainer = (props) => {
     return(

@@ -1,12 +1,12 @@
 import {combineReducers, createStore} from "redux";
-import MainReducer from "./MainReducer";
+import mainReducer from "./mainReducer";
 import { reducer as formReducer } from 'redux-form'
 import paginationReducer from "./paginationReducer";
 import loaderReducer from "./loaderReducer";
 
 let redusers = combineReducers(
     {
-        main: MainReducer,
+        main: mainReducer,
         pagination: paginationReducer,
         loader: loaderReducer,
         form: formReducer

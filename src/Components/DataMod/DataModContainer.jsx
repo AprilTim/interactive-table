@@ -1,8 +1,7 @@
 import React from "react";
 import DataMod from "./DataMod";
 import {connect} from "react-redux";
-import {setDataType} from "../../Redux/MainReducer";
-
+import {setDataType} from "../../Redux/mainReducer";
 
 const DataModContainer = (props) => {
 

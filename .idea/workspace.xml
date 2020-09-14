@@ -7,23 +7,43 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73c9e825-e44c-4b1d-83ec-2e7065bf2577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/AddUser/AddUserContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/DataMod/DataMod.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/DataMod/DataModContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Pagination.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/TableContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UserInfo/UserInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UserInfo/UserInfoContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/MainReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/loaderReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/paginationReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Validators/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Table/Pagination/Pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Table/TableBody/TableBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Table/TableContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Table/TableHead/TableHead.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AddUser/AddUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/AddUser/AddUser.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AddUser/AddUserContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/AddUser/AddUserContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DataMod/DataMod.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DataMod/DataMod.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DataMod/DataModContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DataMod/DataModContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FormControl/FormControls.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormControl/FormControls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FormControl/FormControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormControl/FormControls.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Loader/Loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Loader/Loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Loader/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Loader/Loading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Pagination/Pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TableContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserInfo/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/UserInfo/UserInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserInfo/UserInfoContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/UserInfo/UserInfoContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/MainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/mainReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,20 +69,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Table/TableBody" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\React\project\interactive-table\src\Components\DataMod" />
-      <recent name="E:\Code\React\project\interactive-table\src" />
-      <recent name="E:\Code\React\project\interactive-table\src\Components\UserInfo" />
-      <recent name="E:\Code\React\project\interactive-table\src\Components\AddUser" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\React\project\interactive-table\src\Components\Table\TableBody" />
+      <recent name="E:\Code\React\project\interactive-table\src\Components\Table\TableHead" />
       <recent name="E:\Code\React\project\interactive-table\src\Redux" />
       <recent name="E:\Code\React\project\interactive-table\src\Components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\React\project\interactive-table\src\Components\Table\Search" />
+      <recent name="E:\Code\React\project\interactive-table\src\Components\Table" />
+      <recent name="E:\Code\React\project\interactive-table\src\Components\Pagination" />
+      <recent name="E:\Code\React\project\interactive-table\src\Components\DataMod" />
+      <recent name="E:\Code\React\project\interactive-table\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599579212368</updated>
       <workItem from="1599579213404" duration="19539000" />
-      <workItem from="1599650471134" duration="57085000" />
+      <workItem from="1599650471134" duration="64659000" />
+      <workItem from="1600100784343" duration="2047000" />
     </task>
     <servers />
   </component>
@@ -85,7 +111,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

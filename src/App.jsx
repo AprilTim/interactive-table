@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import TableContainer from "./Components/TableContainer";
+import TableContainer from "./Components/Table/TableContainer";
 import DataModContainer from "./Components/DataMod/DataModContainer";
 
 

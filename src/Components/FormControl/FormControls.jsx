@@ -4,7 +4,8 @@ import "./FormControls.css"
 const Input = ({input,meta,...props}) => {
     return(
         <div className="input">
-            <input className={`input-custom ${meta.visited && meta.invalid && "input-custom_warn"}`} {...input} {...props}/>
+            <input className={`input-custom ${meta.visited && meta.invalid && "input-custom_warn"}`}
+                   {...input} {...props}/>
             <div className={`input-custom_error ${meta.visited && meta.error && "showError"}`}>{meta.error}</div>
         </div>
     )

@@ -16,35 +16,35 @@ const initialState = {
     dataType:''
 }
 
-const MainReducer = (state = initialState, action) => {
+const mainReducer = (state = initialState, action) => {
     switch (action.type) {
         case GET_DATA:
             return {
                 ...state,
-                data: action.data
+                data: action.payload
             }
         case GET_USER_INFO:
             return {
                 ...state,
-                userInfo: action.user
+                userInfo: action.payload
             }
         case SORT_COLUMN:
             return {
                 ...state,
-                data: [...state.data.sort((a,b) => state.sortType ? (a[action.category] > b[action.category] ? 1 : -1)
-                    :b[action.category] > a[action.category] ? 1 : -1)],
+                data: [...state.data.sort((a,b) => state.sortType ? (a[action.payload] > b[action.payload] ? 1 : -1)
+                    :b[action.payload] > a[action.payload] ? 1 : -1)],
                 sortType: !state.sortType,
-                sortField: action.category
+                sortField: action.payload
             }
         case ADD_USER:
             return {
                 ...state,
-                data: [ action.newUser,...state.data]
+                data: [ action.payload,...state.data]
             }
         case ON_SEARCH:
             return {
                 ...state,
-                search: action.search
+                search: action.payload
             }
         case SET_DATA_TYPE:
 
@@ -57,11 +57,11 @@ const MainReducer = (state = initialState, action) => {
     }
 }
 
-export let getData = (data) => ({type:GET_DATA,data})
-export let getUserInfo = (user) => ({type:GET_USER_INFO,user})
-export let sortColumn = (category) => ({type:SORT_COLUMN,category})
-export let addUser = (newUser) => ({type:ADD_USER,newUser})
-export let onSearch = (search) => ({type:ON_SEARCH,search})
+export let getData = (data) => ({type:GET_DATA,payload:data})
+export let getUserInfo = (user) => ({type:GET_USER_INFO,payload:user})
+export let sortColumn = (category) => ({type:SORT_COLUMN,payload:category})
+export let addUser = (newUser) => ({type:ADD_USER,payload:newUser})
+export let onSearch = (search) => ({type:ON_SEARCH,payload:search})
 export let setDataType = (dataType) => ({type:SET_DATA_TYPE,payload:dataType})
 
-export default MainReducer;
+export default mainReducer;
