@@ -2,8 +2,7 @@ export const required = value => ( value ? undefined : 'Это обязател�
 
 export const num = value => ( !isNaN( value ) ? undefined : 'Допустимы только числа!' );
 
-const checkEmail = /^([A-Z|a-z|0-9](\.|_){0,1})+[A-Z|a-z|0-9]\@([A-Z|a-z|0-9])+((\.){0,1}[A-Z|a-z|0-9]){2}\.[a-z]{2,3}$/gm;
-export const email = value => value && checkEmail.test( value )
+export const email = value => value && /^([A-Z|a-z|0-9](\.|_){0,1})+[A-Z|a-z|0-9]\@([A-Z|a-z|0-9])+((\.){0,1}[A-Z|a-z|0-9]){2}\.[a-z]{2,3}$/gm.test( value )
   ? undefined
   : 'Некорректный Email';
 
