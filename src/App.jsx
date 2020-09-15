@@ -1,21 +1,19 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+
 import './App.css';
-import TableContainer from "./Components/TableContainer";
-import DataModContainer from "./Components/DataMod/DataModContainer";
 
+import TableContainer from './Components/table/TableContainer';
+import DataModContainer from './Components/dataMod/DataModContainer';
 
-const App = (props) => {
+const App = () => {
+  let [ dataMod, setDataMod ] = useState( false );
 
-    let [dataMod, setDataMod] = useState(false)
-
-    return (
-        <div className="main">
-            <DataModContainer setDataMod={setDataMod} store={props.store}/>
-            {dataMod && <TableContainer store={props.store}/>}
-        </div>
-    );
-
-
-}
+  return (
+    <div className="main">
+      <DataModContainer setDataMod={ setDataMod }/>
+      { dataMod && <TableContainer/> }
+    </div>
+  );
+};
 
 export default App;

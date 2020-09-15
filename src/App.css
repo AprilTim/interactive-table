@@ -18,11 +18,6 @@ body {
     height: inherit;
 }
 
-.active {
-    color: #0071BC;
-    font-weight: bold;
-}
-
 /*------btn------*/
 
 .btn-text {
@@ -125,17 +120,17 @@ body {
 
 }
 
-/*------Search------*/
+/*------search------*/
 
 .search {
     display: flex;
     align-items: center;
 }
 
-/*------Table------*/
+/*------table------*/
 
 .table {
-    margin-top: 32px;
+    margin-top: 12px;
     width: 100%;
     max-width: 1153px;
     table-layout: fixed;
@@ -155,7 +150,28 @@ body {
     word-wrap: break-word;
 }
 
-/*------AddUser------*/
+.table-head {
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+/*------User Info------*/
+
+.user-description {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background: #f2f2f2;
+}
+
+.user-description_item {
+    margin: 10px 0;
+}
+
+/*------addUser------*/
 
 .dark-background {
     position: fixed;
