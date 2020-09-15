@@ -38,12 +38,12 @@ const mainReducer = ( state = initialState, action ) => {
       return {
         ...state,
         dataSort: [
-          ...state.dataSort.sort((a, b) =>
+          ...state.dataSort.sort( ( a, b ) =>
             state.sortType
-              ? a[action.payload] > b[action.payload]
+              ? a[ action.payload ] > b[ action.payload ]
                 ? 1
                 : -1
-              : b[action.payload] > a[action.payload]
+              : b[ action.payload ] > a[ action.payload ]
                 ? 1
                 : -1
           ),
@@ -54,8 +54,8 @@ const mainReducer = ( state = initialState, action ) => {
     case ADD_USER:
       return {
         ...state,
-        data: [action.payload, ...state.data],
-        dataSort: [action.payload, ...state.data],
+        data: [ action.payload, ...state.data ],
+        dataSort: [ action.payload, ...state.data ],
       };
     case ON_SEARCH:
       return {
@@ -75,7 +75,7 @@ const mainReducer = ( state = initialState, action ) => {
     case SET_PAGE_USER_COUNT:
       return {
         ...state,
-        dataSort: state.data.filter( (obj, index) => (
+        dataSort: state.data.filter( ( obj, index ) => (
           action.payload.lowerLimit < index + 1 && index + 1 <= action.payload.upperLimit )),
       };
     default:

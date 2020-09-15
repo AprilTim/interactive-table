@@ -18,33 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="73c9e825-e44c-4b1d-83ec-2e7065bf2577" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DataMod/DataMod.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/dataMod/DataMod.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DataMod/DataModContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/dataMod/DataModContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FormControl/FormControls.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/formControl/FormControls.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FormControl/FormControls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/formControl/FormControls.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Loader/Loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/loader/Loading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Loader/Loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/loader/Loading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/AddUser/AddUser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/addUser/AddUser.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/AddUser/AddUserContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/addUser/AddUserContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Pagination/Pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/pagination/Pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/pagination/Pagination.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/search/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/Table.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/TableBody/TableBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/tableBody/TableBody.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/TableContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/TableContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/TableHead/TableHead.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/tableHead/TableHead.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/UserInfo/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/userInfo/UserInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/UserInfo/UserInfoContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/loaderReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/loaderReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/table/userInfo/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/userInfo/UserInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/mainReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/paginationReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/paginationReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/validators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +88,7 @@
       <workItem from="1600100784343" duration="2047000" />
       <workItem from="1600103681701" duration="7263000" />
       <workItem from="1600119855813" duration="5227000" />
-      <workItem from="1600172186531" duration="7074000" />
+      <workItem from="1600172186531" duration="9206000" />
     </task>
     <servers />
   </component>
