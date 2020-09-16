@@ -20,8 +20,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/table/userInfo/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/table/userInfo/UserInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/mainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/mainReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/validators.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Social_Network Samurai_JS/Social-Network" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -89,6 +87,8 @@
       <workItem from="1600103681701" duration="7263000" />
       <workItem from="1600119855813" duration="5227000" />
       <workItem from="1600172186531" duration="9206000" />
+      <workItem from="1600184309200" duration="4253000" />
+      <workItem from="1600265208107" duration="298000" />
     </task>
     <servers />
   </component>
@@ -124,10 +124,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600106456076" />
-    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1600177158688">
+    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1600212406602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600177158688" />
+    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600212406602" />
     <state x="0" y="168" key="SettingsEditor" timestamp="1600106501361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
